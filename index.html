@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Repositorio GitHub</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Buscador de Repositorios GitHub</h1>
+        <div class="form-group">
+            <label for="language">Selecciona un lenguaje:</label>
+            <select id="language">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="cpp">C++</option>
+                <option value="php">PHP</option>
+                <option value="go">Go</option>
+            </select>
+            <button onclick="buscarRepos()">Buscar</button>
+        </div>
+        <div id="resultado" class="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
